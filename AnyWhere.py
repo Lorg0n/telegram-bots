@@ -3,7 +3,7 @@ import sys
 import subprocess
 import time
 
-API_KEY = "5476384919:AAH1qm_tXg6xFWAWjc8fy6fUI0JeP-NA52A"
+API_KEY = "-"
 bot = telebot.TeleBot(API_KEY, parse_mode = None)
 
 def is_admin(message):
